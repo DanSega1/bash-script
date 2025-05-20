@@ -2,6 +2,8 @@
 # to enable MFA Delete you have to use the root account
 # the MFA token is work for 1 iteration at a time
 # don't use the same token twice it will not work "Mfa header is invalid"
+# create aws profile for the root account (if needed create access key and secret key)
+# aws recommendation is to disable the root account access key and secret key, please delete it after use.
 
 #!/bin/bash
 
